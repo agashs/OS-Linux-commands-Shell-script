@@ -320,23 +320,28 @@ seq 10 | sed -n '4,6p'
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+<img width="655" height="130" alt="i36" src="https://github.com/user-attachments/assets/a02704c8-821a-4b42-8c44-778fe79af39a" />
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+<img width="731" height="153" alt="i37" src="https://github.com/user-attachments/assets/4b0626f9-4753-42c6-baed-5dfdf91a6b5f" />
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+<img width="641" height="132" alt="i38" src="https://github.com/user-attachments/assets/8b74860b-f6fe-445e-82e0-15a0184f4b39" />
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="707" height="128" alt="i39" src="https://github.com/user-attachments/assets/2630b88b-eece-4566-9e0f-979c84d3df0c" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+<img width="732" height="128" alt="i40" src="https://github.com/user-attachments/assets/b4389225-4296-40ab-b538-17a7539f6c74" />
 
 
 
@@ -355,6 +360,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+<img width="665" height="125" alt="i41" src="https://github.com/user-attachments/assets/24f8e27b-c3c7-489b-9d09-839e90165237" />
 
 cat > file22
 ```
@@ -368,12 +374,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+<img width="676" height="205" alt="i42" src="https://github.com/user-attachments/assets/936353c9-af8e-4cc4-b09b-e0bb14cea013" />
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="640" height="180" alt="i43" src="https://github.com/user-attachments/assets/2c13be20-be3a-4597-9b74-61ac46c88d04" />
 
 cat < urllist.txt
 ```
