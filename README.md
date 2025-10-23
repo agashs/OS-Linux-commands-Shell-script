@@ -399,17 +399,20 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="794" height="125" alt="i45" src="https://github.com/user-attachments/assets/456aedcc-9517-4fb5-bbd7-e26e50a75236" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="643" height="131" alt="i46" src="https://github.com/user-attachments/assets/6304a654-2a96-4d23-999a-91d6c960adb6" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
+<img width="787" height="310" alt="i47" src="https://github.com/user-attachments/assets/6a8a1fa0-bdd6-439a-9597-003bf32879e9" />
 
 mkdir backupdir
  
@@ -420,17 +423,21 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+<img width="772" height="300" alt="i48" src="https://github.com/user-attachments/assets/f359b168-3eba-405e-a205-d3d2edc23770" />
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="795" height="302" alt="i49" src="https://github.com/user-attachments/assets/1f13b545-47f1-4417-96d3-47b7eb0546c7" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="738" height="79" alt="i50" src="https://github.com/user-attachments/assets/ff38d350-fb94-44b7-a804-c26d7546956a" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="785" height="152" alt="i51" src="https://github.com/user-attachments/assets/1380928a-a6d7-4eb2-bf31-6c1a5c721ed4" />
 
  
 # Shell Script
@@ -441,6 +448,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="753" height="222" alt="i52" src="https://github.com/user-attachments/assets/8a930b61-ee47-4a98-9dbd-2755bcb335c1" />
 
  
 cat << stop > herecheck.txt
@@ -453,6 +461,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="806" height="133" alt="i53" src="https://github.com/user-attachments/assets/a97475d4-bb99-497d-936e-38a0836ed67c" />
 
 
 cat < scriptest.sh 
@@ -491,10 +500,12 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="772" height="436" alt="i54" src="https://github.com/user-attachments/assets/678ac073-1b85-4d06-b405-6595cb830a44" />
 
  
 ls file1
 ## OUTPUT
+<img width="808" height="93" alt="i55" src="https://github.com/user-attachments/assets/2a8c1ac1-ed79-4b04-983b-ac1ba1ff3ed9" />
 
 echo $?
 ## OUTPUT 
@@ -503,12 +514,14 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ <img width="761" height="82" alt="i56" src="https://github.com/user-attachments/assets/3d3d00a0-eb4c-42ba-8498-19c16ed495af" />
+
 abcd
  
 echo $?
  ## OUTPUT
 
+<img width="814" height="87" alt="i57" src="https://github.com/user-attachments/assets/54d7ae9b-762e-41e7-b0f2-8f39d047df2f" />
 
  
 # mis-using string comparisons
