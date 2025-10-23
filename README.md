@@ -49,17 +49,21 @@ cat < file1
 cat < file2
 ## OUTPUT
 
+<img width="631" height="185" alt="i2" src="https://github.com/user-attachments/assets/2a715588-06e9-4b06-9e0d-a0fb39f5661e" />
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="661" height="76" alt="i3" src="https://github.com/user-attachments/assets/15ec1ddb-f303-4069-a8c7-757a709e0fe2" />
+
 comm file1 file2
  ## OUTPUT
+<img width="685" height="224" alt="i4" src="https://github.com/user-attachments/assets/c44b0320-2c3c-4d2b-8cca-ce7a95491753" />
 
  
 diff file1 file2
 ## OUTPUT
+<img width="667" height="278" alt="i5" src="https://github.com/user-attachments/assets/592223f0-a4fa-477d-af15-147a75c94c68" />
 
 
 #Filters
@@ -84,6 +88,7 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="632" height="117" alt="i6" src="https://github.com/user-attachments/assets/ecf28c06-4b7b-43f9-91d2-271f25428a81" />
 
 
 
